@@ -1,0 +1,18 @@
+.button-container{
+  width: 20rem;
+  button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #fbe3d7;
+    color: rgb(31, 20, 52);
+  }
+  button:hover {
+    background-color: rgb(132, 117, 158);
+    color: #fff;
+  }
+}
