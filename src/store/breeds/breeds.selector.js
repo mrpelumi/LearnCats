@@ -10,7 +10,7 @@ const selectBreedItem = (state) => state.breed.breed_item;
 
 export const selectFilteredBreedItem = createSelector(
   [selectBreedItem],
-  (breed_item) => {
+  (breed_item) => {  
     const objKeysList = ['id', 'name', 'origin', 'temperament','description', 'life_span', 'reference_image_id'];
     const filteredBreedItem = pick(breed_item, objKeysList);
     return filteredBreedItem;

@@ -20,7 +20,6 @@ function App() {
       const response = await axios.get("https://api.thecatapi.com/v1/breeds");
       dispatch(setBreedList(response.data));
       dispatch(setBreedChange(!breedChange));
-      console.log('running');
     } catch (error){
       console.error(error);
     }
